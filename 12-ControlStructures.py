@@ -6,6 +6,19 @@ elif x == 5:
     print("x is equal to 5")
 else:
     print("x is less than 5")
+#FOR LOOP 
+# List of numbers
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+
+# Variable to store the sum
+sum = 0
+
+# Iterate over the list
+for val in numbers:
+    sum = sum + val
+
+# Print the sum
+print("The sum is", sum)
 
 # For loop with range
 print("\nFor loop with range:")
