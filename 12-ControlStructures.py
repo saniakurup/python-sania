@@ -11,6 +11,16 @@ else:
 print("\nFor loop with range:")
 for i in range(1, 6):  # Loop from 1 to 5 (inclusive)
     print(i)
+# Nested if statement
+x = 10
+if x > 0:
+    print("x is positive")
+    if x % 2 == 0:
+        print("x is even")
+    else:
+        print("x is odd")
+else:
+    print("x is not positive")
 
 # While loop
 print("\nWhile loop:")
