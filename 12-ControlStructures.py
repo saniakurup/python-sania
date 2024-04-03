@@ -42,6 +42,19 @@ while count < 5:
     print(count)
     count += 1
 
+# Initialize a counter variable
+i = 0
+
+# While loop with a condition that checks if i is less than 5
+while i < 5:
+  # Print the current value of i
+  print(i)
+  # Increment i by 1 after each iteration
+  i += 1
+
+# Optional: Print a message after the loop finishes
+print("Loop finished!")
+
 # Function definition
 def greet(name):
     print("Hello,", name)
