@@ -1,0 +1,28 @@
+Here's a task for students to write Python code using if-elif statements and a for loop:
+
+Task: Grade Calculator
+
+Write a Python program that takes the marks scored by a student as input and calculates their grade based on the following criteria:
+
+If marks >= 90, grade is 'A'
+If 80 <= marks < 90, grade is 'B'
+If 70 <= marks < 80, grade is 'C'
+If 60 <= marks < 70, grade is 'D'
+If marks < 60, grade is 'F'
+Additionally, the program should print a message indicating whether the student passed or failed based on whether their grade is 'A', 'B', 'C', or 'D' (i.e., excluding 'F').
+
+Your program should prompt the user to enter the marks scored by the student, calculate their grade, and print the grade along with the pass/fail message.
+
+Example Output:
+Enter the marks scored by the student: 85
+Grade: B
+Pass
+mathematica
+
+
+Enter the marks scored by the student: 55
+Grade: F
+Fail
+
+
+Your task is to write the Python code to implement this program using if-elif statements and a for loop to handle multiple students if desired.
